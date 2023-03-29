@@ -326,7 +326,6 @@ namespace BooksyMVC.Areas.Customer.Controllers
 
                     }
                 }
-
                 //ShoppingCartVM.OrderHeader.
                 //_unitOfWork.OrderHeader.UpdateStripePaymentID(ShoppingCartVM.OrderHeader.Id, session.Id, session.PaymentIntentId);
                 Response.Headers.Add("Location", session.Url);
